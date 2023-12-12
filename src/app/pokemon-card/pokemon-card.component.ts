@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pokemon-card',
@@ -6,6 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pokemon-card.component.sass']
 })
 export class PokemonCardComponent {
+  @Input()
+  pokemon: string;
 
+  @Input()
+  numero: number;
+
+  pegarImagemPokemon() {
+    const numeroFormatado = this.numero;
+
+    return `https://assets.pokemon.com/assets/cms2/img/pokedex/full/${numeroFormatado}.png`;
+  }
 
 }
