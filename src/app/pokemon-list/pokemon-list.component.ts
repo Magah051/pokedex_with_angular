@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pokemon-list.component.sass']
 })
 export class PokemonListComponent {
-  pokemons = ["Bulbasaur", "Ivysaur", "Venosaur", "Charmander"];
-
-  constructor(private PokemonService:PokemonService){}
+  constructor(public PokemonService:PokemonService){}
+  formatarNome(nome: string): string {
+    return nome.charAt(0).toUpperCase() + nome.slice(1);
+  }
 }
