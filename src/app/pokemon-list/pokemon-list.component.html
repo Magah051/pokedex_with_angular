@@ -1,8 +1,17 @@
-<app-pokemon-card
+<img
+  src="https://www.freepnglogos.com/uploads/pok-mon-go-logo-png-30.png"
+  width="50"
+/>
+
+<div class="pokemon-list">
+  <app-pokemon-card
   *ngFor="let pokemon of pokemons; index as i"
   [pokemon]="pokemon"
   [numero]="i + 1"
   ></app-pokemon-card>
+</div>
+
+
 
 
 <!--
