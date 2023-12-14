@@ -1,27 +1,31 @@
-# PokedexWithAngular
+# Pokédex em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Este é um projeto de Pokédex desenvolvido em Angular, uma aplicação web que permite aos usuários explorar informações sobre diferentes Pokémon. A Pokédex consome dados da PokeAPI, uma API pública que fornece informações abrangentes sobre Pokémon.
 
-## Development server
+## O que é uma Pokédex?
+Uma Pokédex é um dispositivo eletrônico no universo Pokémon usado pelos treinadores para registrar e consultar informações sobre diferentes espécies de Pokémon. Ela contém dados detalhados sobre cada Pokémon, como sua aparência, tipo, habilidades e evoluções.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
+- Listagem de Pokémon: Exibe uma lista de Pokémon com imagens e nomes.
 
-## Code scaffolding
+## Tecnologias Utilizadas
+- Angular: Framework front-end para a construção da aplicação.
+- PokeAPI: Fonte de dados para obter informações sobre Pokémon.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como Executar o Projeto
 
-## Build
+### Pré-requisitos:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Certifique-se de ter o Node.js instalado.
+Execute `npm install` para instalar as dependências.
 
-## Running unit tests
+## Execução:
+- Execute ng serve para iniciar o servidor de desenvolvimento.
+- Acesse http://localhost:4200/ em seu navegador.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Interface da Aplicação
 
-## Running end-to-end tests
+![ezgif-2-e2959be091](https://github.com/Magah051/pokedex_with_angular/assets/31749933/9417d54e-4e94-48e7-9b69-36e3a73ceae0)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuições
+Contribuições são bem-vindas! Se você encontrar bugs ou tiver melhorias a sugerir, sinta-se à vontade para abrir uma issue ou enviar um pull request.
